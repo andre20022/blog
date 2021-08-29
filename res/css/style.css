@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.home-container{
+   background-color: saddlebrown;
+   width: 70%;
+   height: 400px;
+   text-align: center;
+   float: left;
+}
+.list-container{
+   background-color: brown;
+   width: 30%;
+   height: 400px;
+   float: right;
+   overflow: auto;
+}
+.list-container ul {
+   list-style: none;
+   text-align: center;
+}
+.list-container ul li{
+   padding: 9px;
+}

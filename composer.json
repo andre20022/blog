@@ -1,0 +1,22 @@
+{
+    "name": "andre20022/blog",
+    "description": "Projeto blog",
+    "autoload": {
+        "psr-4": {
+            "creative\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "andre silva",
+            "email": "andresilvay6@gmail.com"
+        }
+    ],
+    "require": {
+
+        "slim/slim":"4.*",
+        "slim/psr7": "^1.4",
+        "rain/raintpl": ">=3.0.0"
+
+    }
+}
